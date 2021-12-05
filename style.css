@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "iransans";
+    src: url("IRANSansWeb_Medium.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "iransans";
+}
+
+body {
+    background: #090128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: wheat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.emoji {
+    font-size: 100px;
+    color: #f3c623;
+}
+.starsContainer i{
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #ffd84c;
+}
